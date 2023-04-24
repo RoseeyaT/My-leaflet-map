@@ -62,16 +62,15 @@ var map = L.map("mapid").setView([17.53899785034393, 100.86130992069421], 8);
 //  วิธีการ Add Data
 // var ชื่อ file json เพื่อสร้างตัวแปลในการอ่านข้อมูล
 
-var tourpoints =
-{
+var tourpoint ={
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "properties": {
         "name": "สนามบินสุวรรณภูมิ",
-        "level": 10,
-        "type": "Special"
+        "level": "⭐⭐⭐⭐",
+        "type": "Special📌"
       },
       "geometry": {
         "coordinates": [
@@ -85,8 +84,8 @@ var tourpoints =
       "type": "Feature",
       "properties": {
         "name": "เกาะสมุย",
-        "level": 9,
-        "type": "Nutural"
+        "level": "⭐⭐⭐⭐",
+        "type": "Nutural🌲"
       },
       "geometry": {
         "coordinates": [
@@ -100,7 +99,7 @@ var tourpoints =
       "type": "Feature",
       "properties": {
         "name": "วัดอุโมงค์",
-        "level": 8,
+        "level": "⭐⭐⭐⭐",
         "type": "Culture"
       },
       "geometry": {
@@ -115,8 +114,8 @@ var tourpoints =
       "type": "Feature",
       "properties": {
         "name": "เกาะกูด",
-        "level": 7,
-        "type": "Nutural"
+        "level": "⭐⭐⭐⭐",
+        "type": "Nutural🌲"
       },
       "geometry": {
         "coordinates": [
@@ -130,8 +129,8 @@ var tourpoints =
       "type": "Feature",
       "properties": {
         "name": "พัทยา",
-        "level": 8,
-        "type": "Nutural"
+        "level": "⭐⭐⭐⭐",
+        "type": "Nutural🌲"
       },
       "geometry": {
         "coordinates": [
@@ -145,8 +144,8 @@ var tourpoints =
       "type": "Feature",
       "properties": {
         "name": "สวนสนุกดรีมเวิลด์",
-        "level": 8,
-        "type": "Special"
+        "level": "⭐⭐⭐⭐",
+        "type": "Special🎡"
       },
       "geometry": {
         "coordinates": [
@@ -160,8 +159,8 @@ var tourpoints =
       "type": "Feature",
       "properties": {
         "name": "ถ้ำมรกต",
-        "level": 8,
-        "type": "Nutural"
+        "level": "⭐⭐⭐⭐",
+        "type": "Nutural🌲"
       },
       "geometry": {
         "coordinates": [
@@ -175,7 +174,7 @@ var tourpoints =
       "type": "Feature",
       "properties": {
         "name": "อุทยานประวัติศาสตร์พระนครศรีอยุธยา",
-        "level": 8,
+        "level": "⭐⭐⭐⭐",
         "type": "Culture"
       },
       "geometry": {
@@ -190,8 +189,8 @@ var tourpoints =
       "type": "Feature",
       "properties": {
         "name": "อาสนวิหารพระนางมารีอาปฏิสนธินิรมล",
-        "level": 8,
-        "type": "Culture"
+        "level": "⭐⭐⭐⭐",
+        "type": "Culture⛪"
       },
       "geometry": {
         "coordinates": [
@@ -205,8 +204,8 @@ var tourpoints =
       "type": "Feature",
       "properties": {
         "name": "มัสยิดต้นสน",
-        "level": 8,
-        "type": "Culture"
+        "level": "⭐⭐⭐⭐",
+        "type": "Culture🕌"
       },
       "geometry": {
         "coordinates": [
@@ -218,7 +217,6 @@ var tourpoints =
     }
   ]
 }
-
 // interaction by mouseover
 
 var tourLayer = L.geoJSON(tourpoint, {

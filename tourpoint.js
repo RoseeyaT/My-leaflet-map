@@ -5,8 +5,8 @@ var tourpoint ={
       "type": "Feature",
       "properties": {
         "name": "สนามบินสุวรรณภูมิ",
-        "level": 10,
-        "type": "Special"
+        "level": "⭐⭐⭐⭐",
+        "type": "Special📌"
       },
       "geometry": {
         "coordinates": [
@@ -20,8 +20,8 @@ var tourpoint ={
       "type": "Feature",
       "properties": {
         "name": "เกาะสมุย",
-        "level": 9,
-        "type": "Nutural"
+        "level": "⭐⭐⭐⭐",
+        "type": "Nutural🌲"
       },
       "geometry": {
         "coordinates": [
@@ -35,7 +35,7 @@ var tourpoint ={
       "type": "Feature",
       "properties": {
         "name": "วัดอุโมงค์",
-        "level": 8,
+        "level": "⭐⭐⭐⭐",
         "type": "Culture"
       },
       "geometry": {
@@ -50,8 +50,8 @@ var tourpoint ={
       "type": "Feature",
       "properties": {
         "name": "เกาะกูด",
-        "level": 7,
-        "type": "Nutural"
+        "level": "⭐⭐⭐⭐",
+        "type": "Nutural🌲"
       },
       "geometry": {
         "coordinates": [
@@ -65,8 +65,8 @@ var tourpoint ={
       "type": "Feature",
       "properties": {
         "name": "พัทยา",
-        "level": 8,
-        "type": "Nutural"
+        "level": "⭐⭐⭐⭐",
+        "type": "Nutural🌲"
       },
       "geometry": {
         "coordinates": [
@@ -80,8 +80,8 @@ var tourpoint ={
       "type": "Feature",
       "properties": {
         "name": "สวนสนุกดรีมเวิลด์",
-        "level": 8,
-        "type": "Special"
+        "level": "⭐⭐⭐⭐",
+        "type": "Special🎡"
       },
       "geometry": {
         "coordinates": [
@@ -95,8 +95,8 @@ var tourpoint ={
       "type": "Feature",
       "properties": {
         "name": "ถ้ำมรกต",
-        "level": 8,
-        "type": "Nutural"
+        "level": "⭐⭐⭐⭐",
+        "type": "Nutural🌲"
       },
       "geometry": {
         "coordinates": [
@@ -110,7 +110,7 @@ var tourpoint ={
       "type": "Feature",
       "properties": {
         "name": "อุทยานประวัติศาสตร์พระนครศรีอยุธยา",
-        "level": 8,
+        "level": "⭐⭐⭐⭐",
         "type": "Culture"
       },
       "geometry": {
@@ -125,8 +125,8 @@ var tourpoint ={
       "type": "Feature",
       "properties": {
         "name": "อาสนวิหารพระนางมารีอาปฏิสนธินิรมล",
-        "level": 8,
-        "type": "Culture"
+        "level": "⭐⭐⭐⭐",
+        "type": "Culture⛪"
       },
       "geometry": {
         "coordinates": [
@@ -140,8 +140,8 @@ var tourpoint ={
       "type": "Feature",
       "properties": {
         "name": "มัสยิดต้นสน",
-        "level": 8,
-        "type": "Culture"
+        "level": "⭐⭐⭐⭐",
+        "type": "Culture🕌"
       },
       "geometry": {
         "coordinates": [
